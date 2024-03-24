@@ -1,0 +1,137 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  width: 90px;
+  height: auto;
+}
+
+ul {
+  background: #b3853b;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  list-style: none;
+}
+
+ul li {
+  margin-right: 100px;
+}
+
+ul li:last-child {
+  margin-right: 0px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: goldenrod;
+}
+body {
+  background-color: rgb(151, 85, 80);
+  font-family: "Gill Sans", sans-serif;
+  color: #333;
+}
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+#welcome {
+  height: 590px;
+  background-image: url("assets/wallpaper.jpg");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+}
+
+#royalFamily .flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#royalFamily .flex-container div {
+  flex: 1;
+  text-align: center;
+}
+
+#royalFamily img {
+  width: 100%; /* La largeur de l'image occupera tout l'espace du conteneur */
+  height: 100%; /* La hauteur s'ajustera automatiquement pour conserver les proportions */
+  max-width: 200px; /* Ajuste la largeur */
+  max-height: 350px; /* Ajuste la hauteur*/
+  object-fit: cover; /* Pour conserver les proportions */
+}
+
+form {
+  margin: 0 auto;
+  width: 300px;
+  padding-top: 20px;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #b3853b;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #b3853b;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
